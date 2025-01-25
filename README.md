@@ -1,7 +1,7 @@
 **Comprehensive Documentation: Running ToDo and Post API with Postman**
 
  **Introduction**
-This documentation provides step-by-step guidance on how to use Postman to test the basic CRUD (Create, Read, Update, Delete) functionalities, including the `PATCH` method, for the ToDo and Post APIs you implemented using the JSONPlaceholder API.
+In this documentation, I provided step-by-step guidance on using Postman to test the basic CRUD (Create, Read, Update, Delete) functionalities, including the `PATCH` method, for the ToDo and Post APIs you implemented using the JSONPlaceholder API.
 
  **Pre-requisites**
 1. **Postman Installation**:
