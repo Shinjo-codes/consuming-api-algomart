@@ -7,6 +7,14 @@ public class Todo {
     private String title;
     private boolean completed;
 
+    public Todo() {
+
+    }
+
+    public Todo(long l, String testTitle, boolean b) {
+
+    }
+
     public Long getUserId() {
         return userId;
     }
