@@ -18,7 +18,7 @@ public class TodoService {
     }
 
     public String createTodo(String title){
-        Todo todo = new Todo();
+        Todo todo = new Todo(null, "New Todo", false);
         todo.setTitle(title);
         todo.setCompleted(false);
 

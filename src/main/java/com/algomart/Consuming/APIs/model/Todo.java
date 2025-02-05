@@ -1,26 +1,18 @@
 package com.algomart.Consuming.APIs.model;
 
-
 public class Todo {
-    private Long userId;
     private Long id;
     private String title;
     private boolean completed;
 
+    public Todo(Long id, String title, boolean completed) {
+        this.id = id;
+        this.title = title;
+        this.completed = completed;
+    }
+
     public Todo() {
 
-    }
-
-    public Todo(long l, String testTitle, boolean b) {
-
-    }
-
-    public Long getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Long userId) {
-        this.userId = userId;
     }
 
     public Long getId() {

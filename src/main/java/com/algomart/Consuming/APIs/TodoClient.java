@@ -15,7 +15,7 @@ public interface TodoClient {
             );
 
     @GetMapping("/posts/{id}")
-    Todo findToDoById(Long id
+    Todo findToDoById(@PathVariable("id") Long id
     );
 
     @GetMapping("/posts")
@@ -29,9 +29,9 @@ public interface TodoClient {
     );
 
     @DeleteMapping("/posts/{id}")
-    void deleteById(Long id);
+    void deleteById(@PathVariable("id") Long id);
 
-    @PatchMapping("/posts/{id}")
+    @PutMapping("/posts/{id}")
     Todo partiallyUpdateById(@PathVariable("id") Long id,
             @RequestBody Todo todo
     );

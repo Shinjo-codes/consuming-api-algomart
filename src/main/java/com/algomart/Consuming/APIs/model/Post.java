@@ -1,22 +1,28 @@
 package com.algomart.Consuming.APIs.model;
 
 public class Post {
-    private Long userId;
+//    private Long userId;
     private Long id;
     private String title;
     private String body;
+
+    public Post(String title, Long id, String body) {
+        this.title = title;
+        this.id = id;
+        this.body = body;
+    }
 
     public Post(){
 
     }
 
-    public Long getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Long userId) {
-        this.userId = userId;
-    }
+//    public Long getUserId() {
+//        return userId;
+//    }
+//
+//    public void setUserId(Long userId) {
+//        this.userId = userId;
+//    }
 
     public Long getId() {
         return id;

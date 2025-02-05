@@ -25,7 +25,7 @@ public interface PostClient {
     Post updatePost(@PathVariable("id") Long id,
                       @RequestBody Post post);
 
-    @PatchMapping("/posts/{id}")
+    @PutMapping("/posts/{id}")
     Post partiallyUpdatePost(@PathVariable("id") Long id,
                                @RequestBody Post post);
 
